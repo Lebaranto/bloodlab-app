@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+google-generativeai>=0.7.0
+pillow
+pypdfium2>=4.30.0
+pydantic==2.8.2
+python-dotenv
+openai==1.40.0
+starlette
+pydantic-settings
+httpx==0.27.2

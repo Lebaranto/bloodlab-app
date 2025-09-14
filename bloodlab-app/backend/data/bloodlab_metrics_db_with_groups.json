@@ -1,0 +1,763 @@
+{
+  "generated_at": "2025-08-19T11:43:08.095850Z",
+  "priority_rule": "photo > pdf",
+  "metrics": [
+    {
+      "canonical_name": "Height",
+      "names": {
+        "en": "Height",
+        "fr": "Taille",
+        "uk": "Зріст",
+        "ru": "Рост"
+      },
+      "unit": "cm",
+      "reference": null,
+      "group": "Biometric data"
+    },
+    {
+      "canonical_name": "Weight",
+      "names": {
+        "en": "Weight",
+        "fr": "Poids",
+        "uk": "Вага",
+        "ru": "Вес"
+      },
+      "unit": "kg",
+      "reference": null,
+      "group": "Biometric data"
+    },
+    {
+      "canonical_name": "Systolic blood pressure",
+      "names": {
+        "en": "Systolic blood pressure",
+        "fr": "Tension artérielle systolique",
+        "uk": "Систолічний тиск",
+        "ru": "Систолическое давление"
+      },
+      "unit": "mmHg",
+      "reference": null,
+      "group": "Biometric data"
+    },
+    {
+      "canonical_name": "Diastolic blood pressure",
+      "names": {
+        "en": "Diastolic blood pressure",
+        "fr": "Tension artérielle diastolique",
+        "uk": "Діастолічний тиск",
+        "ru": "Диастолическое давление"
+      },
+      "unit": "mmHg",
+      "reference": null,
+      "group": "Biometric data"
+    },
+    {
+      "canonical_name": "Pulse (rest 5 min)",
+      "names": {
+        "en": "Pulse (5 min at rest)",
+        "fr": "Pouls (5 minutes au repos)",
+        "uk": "Пульс (5 хв у спокої)",
+        "ru": "Пульс (5 мин в покое)"
+      },
+      "unit": "/min",
+      "reference": null,
+      "group": "Biometric data"
+    },
+    {
+      "canonical_name": "Erythrocytes",
+      "names": {
+        "en": "Erythrocytes (RBC)",
+        "fr": "Érythrocytes",
+        "uk": "Еритроцити (RBC)",
+        "ru": "Эритроциты (RBC)"
+      },
+      "unit": "10^12/L",
+      "reference": "4.30 - 5.90",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "Leukocytes",
+      "names": {
+        "en": "Leukocytes (WBC)",
+        "fr": "Leucocytes",
+        "uk": "Лейкоцити (WBC)",
+        "ru": "Лейкоциты (WBC)"
+      },
+      "unit": "10^9/L",
+      "reference": "4.0 - 10.0",
+      "group": "Electrolytes"
+    },
+    {
+      "canonical_name": "Hemoglobin",
+      "names": {
+        "en": "Hemoglobin",
+        "fr": "Hémoglobine",
+        "uk": "Гемоглобін",
+        "ru": "Гемоглобин"
+      },
+      "unit": "g/L",
+      "reference": "140 - 180",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "Hematocrit",
+      "names": {
+        "en": "Hematocrit",
+        "fr": "Hématocrite",
+        "uk": "Гематокрит",
+        "ru": "Гематокрит"
+      },
+      "unit": "fraction",
+      "reference": "0.40 - 0.52",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "MCV",
+      "names": {
+        "en": "Mean corpuscular volume (MCV)",
+        "fr": "Volume globulaire moyen (MCV)",
+        "uk": "Середній об’єм еритроцита (MCV)",
+        "ru": "Средний объём эритроцита (MCV)"
+      },
+      "unit": "fL",
+      "reference": "82 - 98",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "MCH",
+      "names": {
+        "en": "Mean corpuscular hemoglobin (MCH)",
+        "fr": "Teneur corpusculaire moyenne en hémoglobine (MCH)",
+        "uk": "Середній вміст Hb в еритроциті (MCH)",
+        "ru": "Среднее содержание Hb в эритроците (MCH)"
+      },
+      "unit": "pg",
+      "reference": "26.0 - 34.0",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "MCHC",
+      "names": {
+        "en": "Mean corpuscular hemoglobin concentration (MCHC)",
+        "fr": "Concentration corpusculaire moyenne en hémoglobine (MCHC)",
+        "uk": "Середня концентрація Hb в еритроцитах (MCHC)",
+        "ru": "Средняя концентрация Hb в эритроцитах (MCHC)"
+      },
+      "unit": "g/L",
+      "reference": "320 - 360",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "Platelets",
+      "names": {
+        "en": "Platelets (PLT)",
+        "fr": "Thrombocytes",
+        "uk": "Тромбоцити (PLT)",
+        "ru": "Тромбоциты (PLT)"
+      },
+      "unit": "10^9/L",
+      "reference": "150 - 350",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "Lymphocytes %",
+      "names": {
+        "en": "Lymphocytes, percent",
+        "fr": "Lymphocytes en pour cent",
+        "uk": "Лімфоцити, %",
+        "ru": "Лимфоциты, %"
+      },
+      "unit": "%",
+      "reference": "25.0 - 45.0",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Lymphocytes absolute",
+      "names": {
+        "en": "Lymphocytes, absolute",
+        "fr": "Lymphocytes en valeur absolue",
+        "uk": "Лімфоцити, абсолютні",
+        "ru": "Лимфоциты, абсолютные"
+      },
+      "unit": "10^9/L",
+      "reference": "1.00 - 4.50",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Monocytes %",
+      "names": {
+        "en": "Monocytes, percent",
+        "fr": "Monocytes en pour cent",
+        "uk": "Моноцити, %",
+        "ru": "Моноциты, %"
+      },
+      "unit": "%",
+      "reference": "< 10.0",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Monocytes absolute",
+      "names": {
+        "en": "Monocytes, absolute",
+        "fr": "Monocytes en valeur absolue",
+        "uk": "Моноцити, абсолютні",
+        "ru": "Моноциты, абсолютные"
+      },
+      "unit": "10^9/L",
+      "reference": "< 1.00",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Basophils absolute",
+      "names": {
+        "en": "Basophils, absolute",
+        "fr": "Basophiles",
+        "uk": "Базофіли, абсолютні",
+        "ru": "Базофилы, абсолютные"
+      },
+      "unit": "G/L",
+      "reference": "< 0.20",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Neutrophils segmented %",
+      "names": {
+        "en": "Neutrophils segmented, percent",
+        "fr": "Neutrophiles segmentés",
+        "uk": "Сегментоядерні нейтрофіли, %",
+        "ru": "Сегментоядерные нейтрофилы, %"
+      },
+      "unit": "%",
+      "reference": "45.0 - 75.0",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Neutrophils absolute",
+      "names": {
+        "en": "Neutrophils, absolute",
+        "fr": "Neutrophiles segmentés",
+        "uk": "Нейтрофіли, абсолютні",
+        "ru": "Нейтрофилы, абсолютные"
+      },
+      "unit": "G/L",
+      "reference": "1.80 - 7.50",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Eosinophils %",
+      "names": {
+        "en": "Eosinophils, percent",
+        "fr": "Eosinophiles",
+        "uk": "Еозинофіли, %",
+        "ru": "Эозинофилы, %"
+      },
+      "unit": "%",
+      "reference": "< 5.0",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Eosinophils absolute",
+      "names": {
+        "en": "Eosinophils, absolute",
+        "fr": "Eosinophiles",
+        "uk": "Еозинофіли, абсолютні",
+        "ru": "Эозинофіли, абсолютные"
+      },
+      "unit": "G/L",
+      "reference": "< 0.50",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Folate",
+      "names": {
+        "en": "Folates",
+        "fr": "Folates",
+        "uk": "Фолати",
+        "ru": "Фолаты"
+      },
+      "unit": "nmol/L",
+      "reference": "> 12.19",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Proteine C reactive",
+      "names": {
+        "en": "C-reactive protein (CRP)",
+        "fr": "Protéine C réactive (CRP)",
+        "uk": "C-реактивний білок (СРБ)",
+        "ru": "С-реактивный белок (СРБ)"
+      },
+      "unit": "mg/L",
+      "reference": "< 5.0",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "HbA1c",
+      "names": {
+        "en": "HbA1c",
+        "fr": "HbA1c",
+        "uk": "HbA1c",
+        "ru": "HbA1c"
+      },
+      "unit": "%",
+      "reference": "4.8 - 6.0 normal; 6.0 - 6.5 prediabetes; ≥ 6.5 diabetes criterion",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "HbA1c (IFCC)",
+      "names": {
+        "en": "HbA1c (IFCC 2010)",
+        "fr": "Hb A1c (IFCC 2010)",
+        "uk": "HbA1c (IFCC 2010)",
+        "ru": "HbA1c (IFCC 2010)"
+      },
+      "unit": "mmol/mol Hb",
+      "reference": "< 53 under treatment; < 42 without treatment",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "eGFR CKD-EPI creatinine",
+      "names": {
+        "en": "eGFR CKD-EPI (creatinine)",
+        "fr": "eGFR CKD-EPI créatinine",
+        "uk": "eGFR CKD-EPI (креатинін)",
+        "ru": "eGFR CKD-EPI (креатинин)"
+      },
+      "unit": "mL/min/1.73m²",
+      "reference": "≥ 90 normal; 60–89 early changes; <60 CKD",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Ferritin",
+      "names": {
+        "en": "Ferritin",
+        "fr": "Ferritine",
+        "uk": "Феритин",
+        "ru": "Ферритин"
+      },
+      "unit": "µg/L",
+      "reference": null,
+      "notes": "<30 µg/L depletion; 30–50 grey zone; >300 consider inflammation/liver; high‑risk target >100",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "HBsAg",
+      "names": {
+        "en": "HBsAg",
+        "fr": "Antigène HBs",
+        "uk": "HBsAg",
+        "ru": "HBsAg"
+      },
+      "unit": null,
+      "reference": "negative",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Anti-HBc",
+      "names": {
+        "en": "Anti-HBc",
+        "fr": "Anticorps anti-HBc",
+        "uk": "Anti-HBc",
+        "ru": "Anti-HBc"
+      },
+      "unit": null,
+      "reference": "negative",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Anti-HBs",
+      "names": {
+        "en": "Anti-HBs",
+        "fr": "Anticorps anti-HBs",
+        "uk": "Anti-HBs",
+        "ru": "Anti-HBs"
+      },
+      "unit": null,
+      "reference": "positive if immunity",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Hepatitis C Ab",
+      "names": {
+        "en": "Hepatitis C antibodies",
+        "fr": "Hépatite C (Anti-VHC)",
+        "uk": "Антитіла до гепатиту C",
+        "ru": "Антитела к гепатиту C"
+      },
+      "unit": null,
+      "reference": "negative",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Measles IgG",
+      "names": {
+        "en": "Measles IgG",
+        "fr": "Rougeole IgG (EIA)",
+        "uk": "Кір IgG",
+        "ru": "Корь IgG"
+      },
+      "unit": null,
+      "reference": "immunity present = positive",
+      "group": "Serologie"
+    },
+    {
+      "canonical_name": "Varicella-Zoster IgG",
+      "names": {
+        "en": "Varicella-Zoster virus IgG",
+        "fr": "Varicelle zona virus IgG (EIA)",
+        "uk": "Вітряна віспа/оперізуючий лишай IgG",
+        "ru": "Ветряная оспа/опоясывающий лишай IgG"
+      },
+      "unit": null,
+      "reference": "absence/presence of immunity",
+      "group": "Serologie"
+    },
+    {
+      "canonical_name": "Rubella IgG",
+      "names": {
+        "en": "Rubella IgG",
+        "fr": "Rubéole IgG (EIA)",
+        "uk": "Краснуха IgG",
+        "ru": "Краснуха IgG"
+      },
+      "unit": null,
+      "reference": "immunity present = positive",
+      "group": "Serologie"
+    },
+    {
+      "canonical_name": "ALT",
+      "names": {
+        "en": "Alanine aminotransferase (ALT)",
+        "fr": "Alanine aminotransférase (ALAT)",
+        "uk": "АЛТ",
+        "ru": "АЛТ"
+      },
+      "unit": "U/L",
+      "reference": "men ≤45; women ≤34",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "AST",
+      "names": {
+        "en": "Aspartate aminotransferase (AST)",
+        "fr": "Aspartate aminotransférase (ASAT)",
+        "uk": "АСТ",
+        "ru": "АСТ"
+      },
+      "unit": "U/L",
+      "reference": "men ≤35; women ≤31",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "GGT",
+      "names": {
+        "en": "Gamma-glutamyl transferase (GGT)",
+        "fr": "Gamma-glutamyltransférase (GGT)",
+        "uk": "ГГТ",
+        "ru": "ГГТ"
+      },
+      "unit": "U/L",
+      "reference": "men ≤55; women ≤38",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Glucose (fasting)",
+      "names": {
+        "en": "Glucose, fasting (venous)",
+        "fr": "Glycémie à jeun (sang veineux)",
+        "uk": "Глюкоза натще (венозна)",
+        "ru": "Глюкоза натощак (венозная)"
+      },
+      "unit": "mmol/L",
+      "reference": "4.10 - 5.90",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Calcium",
+      "names": {
+        "en": "Calcium (serum)",
+        "fr": "Calcium (sérum)",
+        "uk": "Кальцій (сироватка)",
+        "ru": "Кальций (сыворотка)"
+      },
+      "unit": "mmol/L",
+      "reference": "2.15 - 2.57",
+      "group": "Electrolytes"
+    },
+    {
+      "canonical_name": "Creatinine",
+      "names": {
+        "en": "Creatinine",
+        "fr": "Créatinine",
+        "uk": "Креатинін",
+        "ru": "Креатинин"
+      },
+      "unit": "µmol/L",
+      "reference": "men 62 - 106; women 44 - 80",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Cholesterol total",
+      "names": {
+        "en": "Cholesterol, total",
+        "fr": "Cholestérol total",
+        "uk": "Холестерин загальний",
+        "ru": "Холестерин общий"
+      },
+      "unit": "mmol/L",
+      "reference": "≤ 5.2",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "HDL",
+      "names": {
+        "en": "HDL cholesterol",
+        "fr": "HDL",
+        "uk": "ЛПВЩ (HDL)",
+        "ru": "ЛПВП (HDL)"
+      },
+      "unit": "mmol/L",
+      "reference": "≥1.56 low risk; 0.9–1.56 moderate; <0.9 high",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "LDL",
+      "names": {
+        "en": "LDL cholesterol",
+        "fr": "LDL",
+        "uk": "ЛПНЩ (LDL)",
+        "ru": "ЛПНП (LDL)"
+      },
+      "unit": "mmol/L",
+      "reference": "≤ 3.3",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "VLDL",
+      "names": {
+        "en": "VLDL cholesterol",
+        "fr": "VLDL",
+        "uk": "ЛДНЩ (VLDL)",
+        "ru": "ЛПОНП (VLDL)"
+      },
+      "unit": "mmol/L",
+      "reference": "0.26 - 1.04",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Triglycerides",
+      "names": {
+        "en": "Triglycerides",
+        "fr": "Triglycérides",
+        "uk": "Тригліцериди",
+        "ru": "Триглицериды"
+      },
+      "unit": "mmol/L",
+      "reference": "≤ 1.7",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Atherogenic index",
+      "names": {
+        "en": "Atherogenic index",
+        "fr": "Indice d’athérogénicité",
+        "uk": "Індекс атерогенності",
+        "ru": "Индекс атерогенности"
+      },
+      "unit": null,
+      "reference": "0 - 3",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Uric acid",
+      "names": {
+        "en": "Uric acid",
+        "fr": "Acide urique",
+        "uk": "Сечова кислота",
+        "ru": "Мочевая кислота"
+      },
+      "unit": "µmol/L",
+      "reference": "men 210 - 420; women 150 - 350",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Urea",
+      "names": {
+        "en": "Urea",
+        "fr": "Urée",
+        "uk": "Сечовина",
+        "ru": "Мочевина"
+      },
+      "unit": "mmol/L",
+      "reference": "2.5 - 6.5",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "RDW-SD",
+      "names": {
+        "en": "RDW-SD",
+        "fr": "RDW-SD",
+        "uk": "RDW-SD",
+        "ru": "RDW-SD"
+      },
+      "unit": "fL",
+      "reference": "37.0 - 54.0",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "RDW-CV",
+      "names": {
+        "en": "RDW-CV",
+        "fr": "RDW-CV",
+        "uk": "RDW-CV",
+        "ru": "RDW-CV"
+      },
+      "unit": "%",
+      "reference": "0.110 - 0.160",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "PDW",
+      "names": {
+        "en": "Platelet distribution width (PDW)",
+        "fr": "PDW",
+        "uk": "PDW",
+        "ru": "PDW"
+      },
+      "unit": "%",
+      "reference": "9.00 - 17.00",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "MPV",
+      "names": {
+        "en": "Mean platelet volume (MPV)",
+        "fr": "MPV",
+        "uk": "MPV",
+        "ru": "MPV"
+      },
+      "unit": "fL",
+      "reference": "9.00 - 13.00",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "P-LCR",
+      "names": {
+        "en": "Platelet large cell ratio (P-LCR)",
+        "fr": "P-LCR",
+        "uk": "P-LCR",
+        "ru": "P-LCR"
+      },
+      "unit": "%",
+      "reference": "0.13 - 0.43",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "PCT",
+      "names": {
+        "en": "Plateletcrit (PCT)",
+        "fr": "PCT",
+        "uk": "PCT",
+        "ru": "PCT"
+      },
+      "unit": "L/L",
+      "reference": "0.0017 - 0.0035",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "ESR",
+      "names": {
+        "en": "Erythrocyte sedimentation rate (ESR)",
+        "fr": "Vitesse de sédimentation (VS)",
+        "uk": "ШОЕ",
+        "ru": "СОЭ"
+      },
+      "unit": "mm/h",
+      "reference": "men 1 - 10; women 2 - 15",
+      "group": "Hematologie"
+    },
+    {
+      "canonical_name": "TSH",
+      "names": {
+        "en": "Thyroid-stimulating hormone (TSH)",
+        "fr": "Thyréostimuline (TSH)",
+        "uk": "Тиреотропний гормон (ТТГ)",
+        "ru": "Тиреотропный гормон (ТТГ)"
+      },
+      "unit": "µIU/mL",
+      "reference": "0.4 - 4.0",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Potassium",
+      "names": {
+        "en": "Potassium",
+        "fr": "Potassium (K+)",
+        "uk": "Калій (K+)",
+        "ru": "Калий (K+)"
+      },
+      "unit": "mmol/L",
+      "reference": "3.5 - 5.2",
+      "group": "Electrolytes"
+    },
+    {
+      "canonical_name": "Lipase",
+      "names": {
+        "en": "Lipase",
+        "fr": "Lipase",
+        "uk": "Ліпаза",
+        "ru": "Липаза"
+      },
+      "unit": "U/L",
+      "reference": "< 53",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Erythroblastes",
+      "names": {
+        "en": "Erythroblastes",
+        "fr": "Erythroblastes",
+        "uk": "Еритробласти",
+        "ru": "Эритробласты"
+      },
+      "unit": "U/L",
+      "reference": "< 0.1",
+      "group": "Biochimie"
+    },
+    {
+      "canonical_name": "Sodium (Na)",
+      "names": {
+        "en": "Sodium",
+        "fr": "Sodium",
+        "uk": "Натрій",
+        "ru": "Натрий"
+      },
+      "unit": "mmol/L",
+      "reference": "136 - 145",
+      "group": "Electrolytes"
+    },
+    {
+      "canonical_name": "Potassium (K)",
+      "names": {
+        "en": "Potassium",
+        "fr": "Potassium",
+        "uk": "Калій",
+        "ru": "Калий"
+      },
+      "unit": "mmol/L",
+      "reference": "3.5 - 5.0",
+      "group": "Electrolytes"
+    },
+    {
+      "canonical_name": "B12 (cobalamine)",
+      "names": {
+        "en": "Vitamine B12",
+        "fr": "Vitamine B12",
+        "uk": "Вітамін B12 (кобаламін)",
+        "ru": "Витамин B12 (кобаламин)"
+      },
+      "unit": "pmol/L",
+      "reference": "150 - 650",
+      "group": "Biochimie"
+    }
+  ]
+}

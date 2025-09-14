@@ -1,0 +1,16 @@
+# node / vite
+node_modules/
+dist/
+*.log
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+backend/.env
+frontend/.env
+
+# misc
+.DS_Store
+logs/
