@@ -2,7 +2,7 @@
 
 > **AI-driven laboratory report interpreter** – Extracts data from lab test images/PDFs, normalizes values against a medical metrics database, generates structured tables, organ-level composite metrics, and concise AI-powered summaries.
 
-![BloodLab Banner](docs/bloodlab_logo.svg)
+![BloodLab Banner](bloodlab-app/docs/bloodlab_logo.svg)
 
 ---
 
@@ -108,4 +108,5 @@ Make sure not to commit API keys or `.env` files.
 ## 📜 License
 
 MIT License © 2025 BloodLab
+
 
